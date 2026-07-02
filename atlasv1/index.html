@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+  <title>ATLAS — le carnet qui calcule à ta place</title>
+  <meta name="description" content="L'exécutable de ton programme. Un programme, un moteur, un athlète.">
+  <meta name="theme-color" content="#100D0B">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="ATLAS">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="preload" href="fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main id="screen"></main>
+
+  <!-- flux séance : modal plein écran -->
+  <div id="seance"><div class="seance-inner"></div></div>
+
+  <!-- la seule fête de l'app -->
+  <div id="palier-overlay"></div>
+
+  <nav class="tabs" id="tabs"></nav>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
